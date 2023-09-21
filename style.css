@@ -1,0 +1,11 @@
+.navbar-brand:hover {
+    background: #ffca2c;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    background: #ffca2c;
+    border-radius: 5px;
+}
