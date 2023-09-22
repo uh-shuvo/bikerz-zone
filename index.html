@@ -15,9 +15,9 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body class="container">
+    <body>
         <!-- header section  -->
-        <nav>
+        <nav class="container">
             <header>
                 <nav class="navbar navbar-expand-lg bg-body-tertiary rounded">
                     <div class="container-fluid fw-bold">
@@ -49,7 +49,7 @@
             </header>
         </nav>
         <!-- main section  -->
-        <main>
+        <main class="container">
             <!-- slider section  -->
             <section>
                 <div id="carouselExample" class="carousel slide bg-danger-subtle p-5 rounded">
@@ -311,21 +311,34 @@
             </section>
         </main>
         <!-- footer section  -->
-        <footer>
-            <ul class="d-flex gap-3">
-                <li class="list-unstyled">Download Now</li>
-                <li class="list-unstyled">License</li>
-            </ul>
-            <ul class="list-unstyled d-flex gap-3">
-                <li>About</li>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Careers</li>
-                <li>Help</li>
-                <li>Privacy</li>
-                <li>Policy</li>
-            </ul>
-            <p>© 2020 bike. All rights reserved</p>
+        <footer class=" bg-black p-5 text-white">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 d-flex justify-content-end align-items-center">
+                <div class="col">
+                    <div>
+                        <ul class="d-flex gap-3">
+                            <li class="list-unstyled">Download Now</li>
+                            <li class="list-unstyled">License</li>
+                        </ul>
+                        <ul class="list-unstyled d-flex gap-2">
+                            <li>About</li>
+                            <li>Features</li>
+                            <li>Pricing</li>
+                            <li>Careers</li>
+                            <li>Help</li>
+                            <li>Privacy</li>
+                            <li>Policy</li>
+                        </ul>
+                        <p>© 2020 bike. All rights reserved</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex flex-column gap-2">
+                        <h3>Get the App</h3>
+                        <img class="w-50" src="images/others/android.png" alt="">
+                        <img class="w-50" src="images/others/ios.png" alt="">
+                    </div>
+                </div>
+            </div>
 
         </footer>
 
